@@ -1760,6 +1760,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360023533}
   m_CullTransparentMesh: 0
+--- !u!95 &380156274 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1940910566884610217, guid: 97bd58c0f1713204bb610e4d7702161c,
+    type: 3}
+  m_PrefabInstance: {fileID: 137337882}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &465606159
 GameObject:
   m_ObjectHideFlags: 0
@@ -2147,7 +2153,17 @@ PrefabInstance:
         type: 3}
       propertyPath: _onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 157253195}
+      objectReference: {fileID: 380156274}
+    - target: {fileID: 4458965215552665775, guid: 87d45ff44fa3667438ed4ff4088425ac,
+        type: 3}
+      propertyPath: _onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458965215552665775, guid: 87d45ff44fa3667438ed4ff4088425ac,
+        type: 3}
+      propertyPath: _onEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: DoorOpen
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87d45ff44fa3667438ed4ff4088425ac, type: 3}
 --- !u!1 &705507993
