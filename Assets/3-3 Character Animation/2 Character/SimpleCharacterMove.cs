@@ -13,7 +13,7 @@ public class SimpleCharacterMove : MonoBehaviour
     Rigidbody _rb = default;
     Animator _anim = default;
     /// <summary>接地フラグ</summary>
-    bool _isGrounded;
+    bool _isGrounded = true;
 
     void Start()
     {
