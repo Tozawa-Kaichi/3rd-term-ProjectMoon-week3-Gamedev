@@ -64,9 +64,10 @@ public class Push : MonoBehaviour
         if (rb)
         {
             _pushingTarget = rb;
-            ChangeWeight(1f);
+
+            //ChangeWeight(1f);
             // 腕を滑らかに上げ下げしたい時は次のように段階的に変化させる
-            // ChangeWeight(1f, 0.03f);
+            ChangeWeight(1f, 0.03f);
         }
     }
 
