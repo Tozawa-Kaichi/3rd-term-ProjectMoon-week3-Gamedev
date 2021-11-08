@@ -28,8 +28,8 @@ public class LookAtIK : MonoBehaviour
     void OnAnimatorIK(int layerIndex)
     {
         // LookAt の重みとターゲットを指定する
-        _anim.SetLookAtWeight(_weight, _bodyWeight, _headWeight, _eyesWeight, _clampWeight);
-        _anim.SetLookAtPosition(_target.position);
+        _anim.SetLookAtWeight(_weight, _bodyWeight, _headWeight, _eyesWeight, _clampWeight);//どれくらい見るか
+        _anim.SetLookAtPosition(_target.position);//どこを見るか
         // SetLookAtWeight のパラメータは https://docs.unity3d.com/ja/current/ScriptReference/Animator.SetLookAtWeight.html を参照
     }
 }
